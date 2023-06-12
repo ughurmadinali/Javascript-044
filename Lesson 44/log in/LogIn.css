@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.06rem;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 400px;
+    border: 1px solid black;
+    padding: 17px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-input input{
+    width: 100%;
+    padding: 5px;
+}
+
+.btn{
+    color: white;
+    background: blue;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+}
